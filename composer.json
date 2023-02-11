@@ -1,0 +1,16 @@
+{
+	"name": "demogorgorn/yii2-sudo-slider",
+	"description": "Enlarges the image with the mouse hover and move",
+	"homepage": "hthttp://thompsonemerson.github.io/zoomove",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Emerson Thompson",
+			"email": "thompson.emerson@gmail.com",
+			"homepage" : "http://thompsonemerson.github.io"
+		}
+	],
+	"require": {
+	},
+}
