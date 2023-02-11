@@ -42,9 +42,11 @@
 
 								if(zoo.autosizeD === 'true') {
 									$('<img/>',{
-											load: function(){
-													thisZoo.css('width', this.width + 'px')
-													thisZoo.css('height', this.height + 'px')
+										  on: {
+												  load: function(){
+												  		thisZoo.css('width', this.width + 'px')
+												  		thisZoo.css('height', this.height + 'px')
+												  },
 											},
 											src: zoo.imageD
 									});
